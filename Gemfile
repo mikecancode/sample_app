@@ -47,6 +47,9 @@ group :development, :test do
 
   # sqlite3 goes HERE for Heroku's sake
   gem 'sqlite3'
+  
+  # adds color to tests
+  gem 'minitest-reporters'
 
 end
 
