@@ -55,3 +55,7 @@ group :development, :test do
 
 end
 
+group :production do
+  gem 'puma'
+end
+
