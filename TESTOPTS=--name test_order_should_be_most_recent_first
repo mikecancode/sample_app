@@ -1,0 +1,17 @@
+Started with run options --seed 43586
+
+
+
+Progress: |====================[0m[1000D[K FAIL["test_order_should_be_most_recent_first", MicropostTest, 0.908691]
+ test_order_should_be_most_recent_first#MicropostTest (0.91s)
+        --- expected
+        +++ actual
+        @@ -1 +1 @@
+        -#<Micropost id: 941832919, content: "Writing a short test", user_id: nil, created_at: "2015-10-07 18:34:47", updated_at: "2015-10-07 18:34:48">
+        +#<Micropost id: 12348100, content: "Sad cats are sad: http://youtu.be/PKffm2uI4dk", user_id: nil, created_at: "2015-10-07 16:34:47", updated_at: "2015-10-07 18:34:48">
+        /Users/mike/PROJECTS/Ruby/Rails/rails_tutorial/sample_app/test/models/micropost_test.rb:30:in `block in <class:MicropostTest>'
+
+===================================================================================|
+
+Finished in 0.91159s
+5 tests, 5 assertions, 1 failures, 0 errors, 0 skips
